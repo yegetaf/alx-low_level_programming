@@ -7,14 +7,17 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-    for(int x = 'A'; x <= 'Z'; x++) 
-    {
-        char small = tolower(x);
-        putchar(small);
-    }
-    putchar("\n");
-    return 0;
-}
+	int i;
 
+	for (i = 97; i < 123; i++)
+	{
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+	}
+	putchar('\n');
+	return (0);
+}
