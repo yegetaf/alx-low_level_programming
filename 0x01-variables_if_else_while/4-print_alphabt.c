@@ -7,17 +7,14 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-	int i;
-
-	for (i = 97; i < 123; i++)
-	{
-		if (i != 101 && i != 113)
-		{
-			putchar(i);
-		}
-	}
-	putchar('\n');
-	return (0);
+    for(int x = 'A'; x <= 'Z'; x++) // jumps from 'A'(65) to 'B'(66) to in order.
+    {
+        char small = tolower(x);
+        putchar(small);
+    }
+    putchar("\n");
+    return 0;
 }
+
