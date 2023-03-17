@@ -13,12 +13,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	//check if random number(n) remainder equals to 0 so identified as positive number
 	if (n % 2 ==0)
 	{
 		printf("%d is positive\n", n);
 	}
-	//check if random number(n) remainder not equla to 0 so identified as negative number
 	else if (n % 2 != 0)
 	{
 		printf("%d is negative\n", n);
