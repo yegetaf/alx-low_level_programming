@@ -9,7 +9,7 @@
  */
 int main()
 {
-    for(int x = 'A'; x <= 'Z'; x++) // jumps from 'A'(65) to 'B'(66) to in order.
+    for(int x = 'A'; x <= 'Z'; x++) 
     {
         char small = tolower(x);
         putchar(small);
