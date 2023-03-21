@@ -1,9 +1,9 @@
 #include "main.h"
-/**                                                                                                                                        \
-*main                                                                                                                                      
-*for loop for each char                                                                                                                    
-*print each char                                                                                                                           
-**/
+/**                                                                                                                                        
+*main -Entry point            
+*                                                                                                                    
+*Return : 0                                                                                                                           
+*/
 
 
 int main(void)
