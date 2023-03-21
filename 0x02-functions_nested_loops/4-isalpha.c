@@ -1,22 +1,14 @@
 #include "main.h"
-
 /**
- 
- *
- * Return: Always 0.
+ * _isalpha - Check if character is an alphabetic character.
+ * @c: type int character
+ * Return: 1 if letter, lowercase or uppercase, and 0 otherwise
  */
-int main(void)
+int _isalpha(int c)
 {
-    int r;
-
-    r = _isalpha('H');
-    _putchar(r + '0');
-    r = _isalpha('o');
-    _putchar(r + '0');
-    r = _isalpha(108);
-    _putchar(r + '0');
-    r = _isalpha(';');
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
+	if ((c > 64 && c < 91) || (c > 96 && c < 123))
+		return (1);
+	else
+		return (0);
 }
+
