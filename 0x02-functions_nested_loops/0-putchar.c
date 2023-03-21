@@ -1,14 +1,13 @@
-#include "main.h"
-/**                                                                                                                                         
- *main                                                                                                                                      
- *for loop for each char                                                                                                                    
- *print each char                                                                                                                           
+#include <stdio.h>
+/**                                                                                                                                        *main                                                                                                                                      
+*for loop for each char                                                                                                                    
+*print each char                                                                                                                           
 **/
 int main(void)
 {
 char arr[]="_putchar";
 for (int i=0; i<7; i++){
-_putchar(arr[i],"\n");
+putchar(arr[i]);
 
 }
 
